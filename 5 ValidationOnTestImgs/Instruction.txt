@@ -1,0 +1,6 @@
+The mat_code 'ValidationOfNetworksOnImgs.m' is used for validation and to see how well the network can define the contours of single, 
+A function 'ClickImgStatus' is called within the script.
+
+The performance of one of my 'good' trained network is saved as 'performance of comb_bigger_s3_long_convImpOfFilter' here.A folder of separated spore examples is also included.
+
+The similar mat_code 'validationOnshortrainedNN.m' is used for validation on some of my short trains saved in D drive of Monster

@@ -1,0 +1,14 @@
+The mat_code 'CNN_training4ClusteredSps.m' sets up neural network structure and training paprameters 
+I have tried different structures, the one shown here is the one I used 1x1 conv filter before fully connection and generates 'CNN_spores_by3Lables_comb_bigger_s3_long_convImpOfFilter'.
+
+There are several other trained netorks saved here:
+      	'CNN_spores_by3Lables_comb_bigger_v1'
+      	'CNN_spores_by3Lables_comb_bigger_v2'
+      	'CNN_spores_by3Lables_comb_v1'
+      	'CNN_spores_by3Lables_comb_v2'
+      	'CNN_spores_by3Lables_comb1'
+      	'CNN_spores_by3Lables_thickEdge_comb1'
+	
+## Feel free to play with it### 
+
+	

@@ -1,0 +1,18 @@
+Main_Dir= 'Y:\Dropbox (Vetsigian lab)\Vetsigian lab Team Folder\Ye\OtherCode\CNNcode\New Flow\'
+
+1. Manually labeled data:
+mat_code that manually scored spores of all 4 species = 'Manual_score_all_spores';
+This generates images of labeled spores in each species folder(eg. Main_Dir\B1511spores\B1511_1st_frame_spores)
+
+mat_code that generate inputImgs of all 4 species from manual scored images = 'ImgInputFromManualScoredImgs';
+This generates input images 'Main_Dir\AllInputImgDataFromManualMarkedFigs\InputImgData'
+
+2. (Semi)automatically labeled data:
+mat_code that automatically scored spores of all 4 species = 'Score_contour_all_obj'
+This generates images of labeled spores in each species folder(eg. Main_Dir\B1511\IdentifiedStreptomycesSpores)
+The automatic scoring used function 'DrawContour4StreptomycesAll' is called
+
+mat_code that generate inputImgs of all 4 species from semiAuto scored images = 'ImgInputFromSemiScoredImgs';
+This generates input images 'Main_Dir\AllInputImgDataFromSemiAutoMarkedFigs\InputImgData'
+
+If you rerun the codes, make sure save the results somewhere else.

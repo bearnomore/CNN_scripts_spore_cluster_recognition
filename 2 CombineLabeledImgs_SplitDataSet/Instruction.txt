@@ -1,0 +1,8 @@
+Gather all 81x81 labeled images together:
+
+1. The mat_code for creating combiedImageDataSet = 'CombinedTrainingData\combineTrainingDatafromSemiMan.mat';
+This generates 'combinedTrainingData', which includes both images for training and validation/test
+
+2. For validation data, the mat_code 'classifyImagesByClusteringStatus.m' groups the images into  categories of 'singlet', 'doublet', 'multiplet' and 'bad' and add the results as 'classfiedValImgs' to the above 'combinedTrainingData'. The mat_code 'ClickImg.m' is called  during the classification.
+
+## I have included the resulted 'combinedTrainingData' in the same folder, which is the basically the the whole dataset I played with.##

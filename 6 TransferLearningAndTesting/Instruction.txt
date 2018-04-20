@@ -1,0 +1,6 @@
+The mat_code 'TransferLearningAndTesting' is used for transfer learning and validation using vgg16 that goes through the steps from 3 to 5. 
+I saved some trained networks here:
+CNN_spores_by3Lables_comb_bigger_s3_10epoch_GoogleleNetTransfer
+CNN_spores_by3Lables_comb_bigger_s3_10epoch_Vgg16NetTransfer
+The performance of the latter is saved as 'performance of comb_bigger_s3_10epoch_Vgg16NetTransfer' here as well.
+## Feel free to play with it##

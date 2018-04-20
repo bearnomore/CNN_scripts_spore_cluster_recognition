@@ -1,0 +1,6 @@
+
+The mat_code 'ProcessImgs4NNtraining.m' processes the trainingImgs from 'combinedImageDataSet' into the training 27x27 slides centered by the pixel to be classified in 4D format allowed by CNN module of MatLab, and generates the processed data set'PropImgs_3Labels4trainingNetwork_comb'.
+
+## I have included the processed dataset in this folder. This is the second most time consuming step (next to the training itself) and the restriction step that limit the pool size of my training images. I have tried my best to include as many as I can, more images caused running out of memories. I tried to transform the dataset into 'DataStore' format which won't have memory problem by pre-allocating the images into different local folders by its class('Inside', 'Boundary', 'Outside'), but the process itslef takes forever...##
+
+
